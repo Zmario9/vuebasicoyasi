@@ -1,85 +1,53 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { ref } from 'vue'
+import { useRoute } from 'vue-router'
+const route = useRoute()
+const drawer = ref(true)  // Controla si el menú está abierto
+// Array con las opciones del menú
+const menuItems = [
+  { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
+  { title: 'Clientes', icon: 'mdi-account-group', to: '/clientes' },
+  { title: 'Facturación', icon: 'mdi-receipt', to: '/facturacion' },
+  { title: 'Contabilidad', icon: 'mdi-calculator', to: '/contabilidad' }
+]
 </script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <v-app>
+    <!-- BARRA SUPERIOR -->
+    <v-app-bar color="primary" density="comfortable">
+      <v-app-bar-nav-icon @click="drawer = !drawer" />
+      <v-app-bar-title>
+        <v-icon start>mdi-calculator-variant</v-icon>
+        ERP Contable - Microempresa
+      </v-app-bar-title>
+      <v-spacer />
+      <v-chip color="white" variant="outlined">
+        <v-icon start>mdi-school</v-icon>
+        Universidad
+      </v-chip>
+    </v-app-bar>
+    <!-- MENÚ LATERAL -->
+    <v-navigation-drawer v-model="drawer" width="260">
+      <v-list nav>
+        <v-list-item v-for="item in menuItems" :key="item.to" :to="item.to" :prepend-icon="item.icon"
+          :title="item.title" :active="route.path === item.to" color="primary" />
+      </v-list>
+      <template v-slot:append>
+        <div class="pa-4">
+          <v-divider class="mb-4" />
+          <div class="text-caption text-grey">
+            <v-icon size="small">mdi-information</v-icon>
+            Sistema didáctico<br />
+            Partida doble + SPA
+          </div>
+        </div>
+      </template>
+    </v-navigation-drawer>
+    <!-- CONTENIDO PRINCIPAL -->
+    <v-main>
+      <v-container fluid class="pa-6">
+        <router-view />
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
-</style>

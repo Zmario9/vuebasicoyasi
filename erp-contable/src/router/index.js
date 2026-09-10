@@ -1,13 +1,32 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+// Importamos las vistas (páginas)
+import Dashboard from '../views/Dashboard.vue'
+import Clientes from '../views/Clientes.vue'
+import Facturacion from '../views/Facturacion.vue'
+import Contabilidad from '../views/Contabilidad.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'dashboard',
+      component: Dashboard
+    },
+    {
+      path: '/clientes',
+      name: 'clientes',
+      component: Clientes
+    },
+    {
+      path: '/facturacion',
+      name: 'facturacion',
+      component: Facturacion
+    },
+    {
+      path: '/contabilidad',
+      name: 'contabilidad',
+      component: Contabilidad
     },
     {
       path: '/about',
