@@ -1,4 +1,11 @@
 import {
+  VList,
+  VListItem,
+  VListSubheader,
+  makeItemsProps,
+  useItems
+} from "./chunk-O7MHJDBE.js";
+import {
   VInput,
   VLabel,
   VTextField,
@@ -7,25 +14,24 @@ import {
   useAutocomplete,
   useFocus,
   useInputIcon
-} from "./chunk-CMCYE5YK.js";
+} from "./chunk-TLVZZUAV.js";
 import {
   useForm
 } from "./chunk-SUY7B2VU.js";
 import {
-  VList,
-  VListItem,
-  VListSubheader,
-  makeItemsProps,
-  useItems
-} from "./chunk-L5UGB7J3.js";
-import {
   VDivider
 } from "./chunk-WNDGUC5J.js";
+import {
+  VChip
+} from "./chunk-GZTZXNOH.js";
+import {
+  VAvatar
+} from "./chunk-JARU7YGZ.js";
 import {
   VMenuSymbol,
   VOverlay,
   makeVOverlayProps
-} from "./chunk-Y2ITF4TF.js";
+} from "./chunk-SGTAFT6V.js";
 import {
   forwardRefs
 } from "./chunk-3WCK3N3S.js";
@@ -33,25 +39,15 @@ import {
   useScopeId
 } from "./chunk-2YVPWOGS.js";
 import {
-  makePositionProps,
-  usePosition
-} from "./chunk-FIAO2SGJ.js";
-import {
-  makeLocationProps,
-  useLocation
-} from "./chunk-5BQDZMHF.js";
-import {
-  VChip
-} from "./chunk-AS265TGA.js";
-import {
-  VAvatar
-} from "./chunk-MEXRVAX6.js";
-import {
   useDisplay
 } from "./chunk-2DQFPCJU.js";
 import {
   VDialogTransition
 } from "./chunk-BTVVIDL6.js";
+import {
+  makePositionProps,
+  usePosition
+} from "./chunk-FIAO2SGJ.js";
 import {
   makeDensityProps,
   useDensity
@@ -68,12 +64,16 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
+  makeLocationProps,
+  useLocation
+} from "./chunk-S4MIWDVA.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -2189,4 +2189,4 @@ export {
   makeSelectProps,
   VSelect
 };
-//# sourceMappingURL=chunk-QSCHPJXW.js.map
+//# sourceMappingURL=chunk-UDBIZZ2W.js.map

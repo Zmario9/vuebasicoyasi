@@ -18,16 +18,16 @@ import {
   useBorder
 } from "./chunk-BMQNBYWP.js";
 import {
-  makeRoundedProps,
-  useRounded
-} from "./chunk-7P2YSCJH.js";
-import {
   VDefaultsProvider
 } from "./chunk-FJ5YFZEN.js";
 import {
   makeSizeProps,
   useSize
 } from "./chunk-7OFNFRBU.js";
+import {
+  makeRoundedProps,
+  useRounded
+} from "./chunk-7P2YSCJH.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -134,4 +134,4 @@ var VAvatar = genericComponent()({
 export {
   VAvatar
 };
-//# sourceMappingURL=chunk-MEXRVAX6.js.map
+//# sourceMappingURL=chunk-JARU7YGZ.js.map

@@ -1,19 +1,15 @@
 import {
+  VAvatar
+} from "./chunk-JARU7YGZ.js";
+import {
   LoaderSlot,
   makeLoaderProps,
   useLoader
-} from "./chunk-JV4K6OU6.js";
+} from "./chunk-XJVIRIMS.js";
 import {
   makePositionProps,
   usePosition
 } from "./chunk-FIAO2SGJ.js";
-import {
-  makeLocationProps,
-  useLocation
-} from "./chunk-5BQDZMHF.js";
-import {
-  VAvatar
-} from "./chunk-MEXRVAX6.js";
 import {
   makeDensityProps,
   useDensity
@@ -38,12 +34,16 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
+  makeLocationProps,
+  useLocation
+} from "./chunk-S4MIWDVA.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -459,4 +459,4 @@ export {
   VCardText,
   VCard
 };
-//# sourceMappingURL=chunk-AYO3QWJY.js.map
+//# sourceMappingURL=chunk-VWGJLLGP.js.map

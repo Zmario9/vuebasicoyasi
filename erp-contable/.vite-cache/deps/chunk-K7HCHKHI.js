@@ -1,7 +1,7 @@
 import {
   VOverlay,
   makeVOverlayProps
-} from "./chunk-Y2ITF4TF.js";
+} from "./chunk-SGTAFT6V.js";
 import {
   forwardRefs
 } from "./chunk-3WCK3N3S.js";
@@ -140,4 +140,4 @@ export {
   makeVDialogProps,
   VDialog
 };
-//# sourceMappingURL=chunk-W3WPMQZI.js.map
+//# sourceMappingURL=chunk-K7HCHKHI.js.map

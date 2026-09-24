@@ -2,14 +2,14 @@ import {
   VDivider
 } from "./chunk-WNDGUC5J.js";
 import {
-  useSsrBoot
-} from "./chunk-YDYSGTU5.js";
-import {
   VAvatar
-} from "./chunk-MEXRVAX6.js";
+} from "./chunk-JARU7YGZ.js";
 import {
   VExpandTransition
 } from "./chunk-BTVVIDL6.js";
+import {
+  useSsrBoot
+} from "./chunk-YDYSGTU5.js";
 import {
   makeDensityProps,
   useDensity
@@ -31,12 +31,12 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -47,12 +47,12 @@ import {
   ripple_default
 } from "./chunk-AJLCYO3Z.js";
 import {
+  MaybeTransition
+} from "./chunk-DJI4G7MN.js";
+import {
   makeRouterProps,
   useLink
 } from "./chunk-HK43FI5S.js";
-import {
-  MaybeTransition
-} from "./chunk-DJI4G7MN.js";
 import {
   makeDimensionProps,
   useDimension
@@ -2113,4 +2113,4 @@ export {
   VListItemAction,
   VListItemMedia
 };
-//# sourceMappingURL=chunk-L5UGB7J3.js.map
+//# sourceMappingURL=chunk-O7MHJDBE.js.map

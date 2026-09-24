@@ -5,14 +5,14 @@ import {
   forwardRefs
 } from "./chunk-3WCK3N3S.js";
 import {
-  LoaderSlot,
-  makeLoaderProps,
-  useLoader
-} from "./chunk-JV4K6OU6.js";
-import {
   VExpandXTransition,
   VSlideYTransition
 } from "./chunk-BTVVIDL6.js";
+import {
+  LoaderSlot,
+  makeLoaderProps,
+  useLoader
+} from "./chunk-XJVIRIMS.js";
 import {
   makeDensityProps,
   useDensity
@@ -21,12 +21,12 @@ import {
   VIcon
 } from "./chunk-3T75OT2A.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   IconValue
 } from "./chunk-D4O5S6WB.js";
@@ -1263,4 +1263,4 @@ export {
   makeVTextFieldProps,
   VTextField
 };
-//# sourceMappingURL=chunk-CMCYE5YK.js.map
+//# sourceMappingURL=chunk-TLVZZUAV.js.map

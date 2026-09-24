@@ -3,14 +3,14 @@ import {
   useLazy
 } from "./chunk-Q4ETB2WV.js";
 import {
+  VExpandTransition
+} from "./chunk-BTVVIDL6.js";
+import {
   makeGroupItemProps,
   makeGroupProps,
   useGroup,
   useGroupItem
 } from "./chunk-WW7X4SPF.js";
-import {
-  VExpandTransition
-} from "./chunk-BTVVIDL6.js";
 import {
   VIcon
 } from "./chunk-3T75OT2A.js";
@@ -19,12 +19,12 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -362,4 +362,4 @@ export {
   VExpansionPanel,
   VExpansionPanels
 };
-//# sourceMappingURL=chunk-N6O3PP3I.js.map
+//# sourceMappingURL=chunk-VG5HIXQN.js.map

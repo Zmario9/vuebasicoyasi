@@ -2,15 +2,15 @@ import {
   useSsrBoot
 } from "./chunk-YDYSGTU5.js";
 import {
-  useLayout
-} from "./chunk-LKU7J4LT.js";
-import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
 import {
   makeDimensionProps,
   useDimension
 } from "./chunk-MX7WPQZ6.js";
+import {
+  useLayout
+} from "./chunk-LKU7J4LT.js";
 import {
   genericComponent,
   makeComponentProps,
@@ -70,4 +70,4 @@ var VMain = genericComponent()({
 export {
   VMain
 };
-//# sourceMappingURL=chunk-H6OWEQNA.js.map
+//# sourceMappingURL=chunk-OIN5L57A.js.map

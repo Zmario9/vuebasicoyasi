@@ -6,16 +6,12 @@ import {
   useScopeId
 } from "./chunk-2YVPWOGS.js";
 import {
-  useSsrBoot
-} from "./chunk-YDYSGTU5.js";
-import {
-  makeLayoutItemProps,
-  useLayoutItem
-} from "./chunk-LKU7J4LT.js";
-import {
   makeDisplayProps,
   useDisplay
 } from "./chunk-2DQFPCJU.js";
+import {
+  useSsrBoot
+} from "./chunk-YDYSGTU5.js";
 import {
   VImg
 } from "./chunk-G3UPRB5C.js";
@@ -28,12 +24,12 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -43,6 +39,10 @@ import {
 import {
   useBackgroundColor
 } from "./chunk-G34CAMGF.js";
+import {
+  makeLayoutItemProps,
+  useLayoutItem
+} from "./chunk-LKU7J4LT.js";
 import {
   useRtl
 } from "./chunk-JKYXFLHR.js";
@@ -647,4 +647,4 @@ var VNavigationDrawer = genericComponent()({
 export {
   VNavigationDrawer
 };
-//# sourceMappingURL=chunk-D7GJYUQL.js.map
+//# sourceMappingURL=chunk-CPCI5DQB.js.map

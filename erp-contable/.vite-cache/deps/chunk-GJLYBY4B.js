@@ -1,21 +1,13 @@
 import {
   VBtn,
   makeVBtnProps
-} from "./chunk-AR3CTHV7.js";
-import {
-  useSsrBoot
-} from "./chunk-YDYSGTU5.js";
-import {
-  makeLocationProps,
-  useLocation
-} from "./chunk-5BQDZMHF.js";
-import {
-  makeLayoutItemProps,
-  useLayoutItem
-} from "./chunk-LKU7J4LT.js";
+} from "./chunk-U3PMFMFA.js";
 import {
   VExpandTransition
 } from "./chunk-BTVVIDL6.js";
+import {
+  useSsrBoot
+} from "./chunk-YDYSGTU5.js";
 import {
   VImg
 } from "./chunk-G3UPRB5C.js";
@@ -28,18 +20,26 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
+  makeLocationProps,
+  useLocation
+} from "./chunk-S4MIWDVA.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
 import {
   useBackgroundColor
 } from "./chunk-G34CAMGF.js";
+import {
+  makeLayoutItemProps,
+  useLayoutItem
+} from "./chunk-LKU7J4LT.js";
 import {
   useRtl
 } from "./chunk-JKYXFLHR.js";
@@ -597,4 +597,4 @@ export {
   VAppBarNavIcon,
   VAppBarTitle
 };
-//# sourceMappingURL=chunk-ADVKQIQ5.js.map
+//# sourceMappingURL=chunk-GJLYBY4B.js.map

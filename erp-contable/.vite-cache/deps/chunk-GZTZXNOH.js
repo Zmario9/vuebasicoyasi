@@ -1,6 +1,6 @@
 import {
   VAvatar
-} from "./chunk-MEXRVAX6.js";
+} from "./chunk-JARU7YGZ.js";
 import {
   useGoTo
 } from "./chunk-Z7JXZ75M.js";
@@ -9,15 +9,15 @@ import {
   useDisplay
 } from "./chunk-2DQFPCJU.js";
 import {
+  VExpandXTransition,
+  VFadeTransition
+} from "./chunk-BTVVIDL6.js";
+import {
   makeGroupItemProps,
   makeGroupProps,
   useGroup,
   useGroupItem
 } from "./chunk-WW7X4SPF.js";
-import {
-  VExpandXTransition,
-  VFadeTransition
-} from "./chunk-BTVVIDL6.js";
 import {
   makeDensityProps,
   useDensity
@@ -39,16 +39,16 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
-  makeRoundedProps,
-  useRounded
-} from "./chunk-7P2YSCJH.js";
-import {
   VDefaultsProvider
 } from "./chunk-FJ5YFZEN.js";
 import {
   makeSizeProps,
   useSize
 } from "./chunk-7OFNFRBU.js";
+import {
+  makeRoundedProps,
+  useRounded
+} from "./chunk-7P2YSCJH.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -866,4 +866,4 @@ export {
   VChipGroup,
   VChip
 };
-//# sourceMappingURL=chunk-AS265TGA.js.map
+//# sourceMappingURL=chunk-GZTZXNOH.js.map

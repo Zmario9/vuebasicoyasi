@@ -1,10 +1,10 @@
 import {
-  useIntersectionObserver
-} from "./chunk-IYFZDR3U.js";
-import {
   makeSizeProps,
   useSize
 } from "./chunk-7OFNFRBU.js";
+import {
+  useIntersectionObserver
+} from "./chunk-IYFZDR3U.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -206,4 +206,4 @@ var VProgressCircular = genericComponent()({
 export {
   VProgressCircular
 };
-//# sourceMappingURL=chunk-TIPSF6EQ.js.map
+//# sourceMappingURL=chunk-O6MD54WV.js.map

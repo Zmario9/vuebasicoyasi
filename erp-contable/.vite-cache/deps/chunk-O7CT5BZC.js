@@ -1,7 +1,7 @@
 import {
   VOverlay,
   makeVOverlayProps
-} from "./chunk-Y2ITF4TF.js";
+} from "./chunk-SGTAFT6V.js";
 import {
   forwardRefs
 } from "./chunk-3WCK3N3S.js";
@@ -13,25 +13,25 @@ import {
   usePosition
 } from "./chunk-FIAO2SGJ.js";
 import {
-  VProgressLinear,
-  makeLocationProps
-} from "./chunk-5BQDZMHF.js";
-import {
-  VuetifyLayoutKey,
-  useLayout
-} from "./chunk-LKU7J4LT.js";
-import {
   genOverlays,
   makeVariantProps,
   useVariant
 } from "./chunk-YUYWEGBU.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
+  VProgressLinear,
+  makeLocationProps
+} from "./chunk-S4MIWDVA.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
 import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
+  VuetifyLayoutKey,
+  useLayout
+} from "./chunk-LKU7J4LT.js";
 import {
   useProxiedModel,
   useToggleScope
@@ -276,4 +276,4 @@ export {
   makeVSnackbarProps,
   VSnackbar
 };
-//# sourceMappingURL=chunk-D46WFREZ.js.map
+//# sourceMappingURL=chunk-O7CT5BZC.js.map

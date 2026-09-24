@@ -1,10 +1,10 @@
 import {
-  useIntersectionObserver
-} from "./chunk-IYFZDR3U.js";
-import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
+import {
+  useIntersectionObserver
+} from "./chunk-IYFZDR3U.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -376,4 +376,4 @@ export {
   useLocation,
   VProgressLinear
 };
-//# sourceMappingURL=chunk-5BQDZMHF.js.map
+//# sourceMappingURL=chunk-S4MIWDVA.js.map

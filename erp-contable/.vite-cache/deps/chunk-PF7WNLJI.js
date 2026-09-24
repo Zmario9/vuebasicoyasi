@@ -1,14 +1,10 @@
 import {
   VBtn
-} from "./chunk-AR3CTHV7.js";
+} from "./chunk-U3PMFMFA.js";
 import {
   makePositionProps,
   usePosition
 } from "./chunk-FIAO2SGJ.js";
-import {
-  makeLocationProps,
-  useLocation
-} from "./chunk-5BQDZMHF.js";
 import {
   makeDensityProps,
   useDensity
@@ -26,12 +22,16 @@ import {
   useElevation
 } from "./chunk-BMRKG4NN.js";
 import {
+  VDefaultsProvider
+} from "./chunk-FJ5YFZEN.js";
+import {
+  makeLocationProps,
+  useLocation
+} from "./chunk-S4MIWDVA.js";
+import {
   makeRoundedProps,
   useRounded
 } from "./chunk-7P2YSCJH.js";
-import {
-  VDefaultsProvider
-} from "./chunk-FJ5YFZEN.js";
 import {
   makeTagProps
 } from "./chunk-Z4FZV4DU.js";
@@ -295,4 +295,4 @@ export {
   useIconSizes,
   VAlert
 };
-//# sourceMappingURL=chunk-MEL4QYO2.js.map
+//# sourceMappingURL=chunk-PF7WNLJI.js.map

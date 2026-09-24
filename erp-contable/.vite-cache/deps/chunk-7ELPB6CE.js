@@ -1,7 +1,7 @@
 import {
   VOverlay,
   makeVOverlayProps
-} from "./chunk-Y2ITF4TF.js";
+} from "./chunk-SGTAFT6V.js";
 import {
   forwardRefs
 } from "./chunk-3WCK3N3S.js";
@@ -266,4 +266,4 @@ export {
   touch_default,
   VTooltip
 };
-//# sourceMappingURL=chunk-GSC62VUH.js.map
+//# sourceMappingURL=chunk-7ELPB6CE.js.map
